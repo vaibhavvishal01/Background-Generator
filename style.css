@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conatiner{
+    background-color: black;
+}
+h1{
+    font-size: 100px;
+    font-weight: bolder;
+    font-family: cursive;
+    text-align: center;
+    color: crimson;
+}
+.Background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+button{
+    background-color: rgb(48, 48, 237);
+    color: #fff;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+button:active{
+   padding: 35px;
+}
+.change{
+    width: 500px;
+    height: 300px;
+    margin: 20px auto;
+    background-size: cover;
+}
